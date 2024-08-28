@@ -14,6 +14,7 @@ public class WhileSomaNumeros {
                 break; // Encerra o loop se o número for negativo
             }
             soma += numero;
+            // soma = soma + numero;
         }
         System.out.println("A soma dos números é: " + soma);
     }

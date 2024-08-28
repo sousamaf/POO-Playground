@@ -4,6 +4,7 @@ public class WhileContagem {
         while (contador <= 10) {
             System.out.println("Contador: " + contador);
             contador++;
+            // contador = contador + 1;
         }
     }
 }
