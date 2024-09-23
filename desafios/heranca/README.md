@@ -11,7 +11,7 @@ Este diagrama ilustra a hierarquia de classes e demonstra como a herança é apl
 #### **Sua Tarefa**
 
 - **Crie uma nova classe** que estende `Funcionario`, como `Analista`, `Testador`, `Estagiario`, etc.
-- **Adicione propriedades e métodos específicos à sua classe que reflitam as responsabilidades desse cargo.
+- **Adicione propriedades** e métodos específicos à sua classe que reflitam as responsabilidades desse cargo.
 - **Sobrescreva métodos** se necessário, como `trabalhar()`, para especificar as atividades do seu funcionário.
 - **Instancie sua classe** em `Main.java` e adicione a chamada ao métodos `trabalhar` e `getSalario`.
 - **Execute o programa** e verifique se o comportamento do seu objeto está conforme o esperado.
