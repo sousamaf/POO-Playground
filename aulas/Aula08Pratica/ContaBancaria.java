@@ -23,6 +23,7 @@ public class ContaBancaria {
     public void depositar(double valor) {
         if(valor >= 0.0){
             this.saldo += valor;
+            System.out.println("Depósito realizado com sucesso. Seu saldo atual é R$ " + this.saldo);
             // this.saldo = this.saldo + valor; // é o mesmo que a linha anterior
         } else {
             System.out.println("O valor depositado é negativo.");
