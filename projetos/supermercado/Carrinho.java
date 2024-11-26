@@ -20,7 +20,7 @@ public class Carrinho {
     }
 
     public double calcularTotal() {
-        double total = 0;
+        double total = 0.0;
         for (Vendavel item : itens) {
             total += item.getPreco();
         }
