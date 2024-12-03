@@ -13,7 +13,7 @@ public class DoWhileJogoAdivinhacao {
                 System.out.println("Você errou, tente novamente:");
 
         }while (tentativa != numeroSecreto);
-
+        scanner.close();
         System.out.println("Você acertou, o número era: " + numeroSecreto);
     }
 }

@@ -16,6 +16,7 @@ public class WhileSomaNumeros {
             soma += numero;
             // soma = soma + numero;
         }
+        scanner.close();
         System.out.println("A soma dos números é: " + soma);
     }
 }
