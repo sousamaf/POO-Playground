@@ -22,5 +22,4 @@ public class Livro {
     public String getGenero() {
         return genero;
     }
-
 }
